@@ -3,8 +3,90 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Loops</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		h1{text-align: center; margin-bottom: 3%; font-size: 60px;}
+		.box{width: 90%;}
+		#listem{text-align: center; font-size: 40px;}
+	</style>
 </head>
 <body>
-	
+
+	<div class="box">
+
+		<h1 id='theTitle'></h1>
+
+		<p id="listem"></p>
+
+	</div>
+
+	<script>
+
+	//A Global Variable
+	var title =	document.getElementById('theTitle');
+
+	//The for loop is usually used when you need to iterate a given number of times:
+	// var suburbs = ['Devonport', 'Parnell', 'Manurewa', 'Remuera'];
+	// var text = '';
+
+	// 	for (i = 0; i < suburbs.length; i++) { 
+	//     text += suburbs[i] + "<br>";
+	// 	}
+
+
+	// title.textContent = 'The List:'
+	// document.getElementById('listem').innerHTML = text;
+
+
+	// ***************************************************************
+
+
+	//The while loop is usually used when you need to repeat something until a given condition is true:
+
+	// var myColors = ["Blue", "Red", "Grey", "Silver"];
+	// 	var i = 0;
+	// 	var text = '';
+
+	// 	while (myColors[i]) {
+	// 	    text += myColors[i] + "<br>";
+	// 	    i++;
+	// }
+
+	// title.textContent = 'The List:'
+	// document.getElementById('listem').innerHTML = text;
+
+
+	//**************************************************************
+
+	// Switch Statements:
+
+	// var day;
+	// switch (new Date().getDay()) {
+	//     case 0:
+	//         day = "Sunday";
+	//         break;
+	//     case 1:
+	//         day = "Monday";
+	//         break;
+	//     case 2:
+	//         day = "Tuesday";
+	//         break;
+	//     case 3:
+	//         day = "Wednesday";
+	//         break;
+	//     case 4:
+	//         day = "Thursday";
+	//         break;
+	//     case 5:
+	//         day = "Friday";
+	//         break;
+	//     case  6:
+	//         day = "Saturday";
+	//         break;
+	// }
+
+	// title.textContent = 'Today is:'
+	// document.getElementById('listem').innerHTML = day;
+	</script>
 </body>
 </html>
